@@ -1,4 +1,13 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
+
+const menu = [
+  { name: "Home", link: "home" },
+  { name: "About Us", link: "about" },
+  { name: "Our Attorneys", link: "team" },
+  { name: "Services", link: "services" },
+  { name: "Contact", link: "contact" },
+];
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,21 +19,15 @@ export default function Navbar() {
     <nav className="bg-black text-white">
       <div className="container mx-auto flex justify-end items-center py-4 px-6">
         <div className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:text-gray-400">
-            Home
-          </a>
-          <a href="#about" className="hover:text-gray-400">
-            About Us
-          </a>
-          <a href="#attorneys" className="hover:text-gray-400">
-            Our Attorneys
-          </a>
-          <a href="#services" className="hover:text-gray-400">
-            Services
-          </a>
-          <a href="#" className="hover:text-gray-400">
-            Contact
-          </a>
+          {menu.map((item, index) => (
+            <Link
+              key={index}
+              to={item.link}
+              className="hover:text-gray-300 cursor-pointer"
+            >
+              {item.name}
+            </Link>
+          ))}
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
@@ -51,21 +54,18 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden">
-          <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-700">
-            Home
-          </a>
-          <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-700">
-            About Us
-          </a>
-          <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-700">
-            Our Attorneys
-          </a>
-          <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-700">
-            Services
-          </a>
-          <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-700">
-            Contact
-          </a>
+          <div className="flex flex-col space-y-4 px-4 py-2">
+            {menu.map((item, index) => (
+              <Link
+                key={index}
+                to={item.link}
+                onClick={toggleMenu}
+                className="hover:text-gray-300"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </nav>

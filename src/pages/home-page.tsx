@@ -5,6 +5,7 @@ import LeadAttorneys from "./lead-attorneys";
 const Hero: React.FC = () => {
   return (
     <section
+      id="home"
       className="relative bg-hero bg-cover bg-center flex items-center justify-start p-16"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >

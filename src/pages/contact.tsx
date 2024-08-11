@@ -3,7 +3,10 @@ import { lawFirmData } from "../_data";
 
 export default function ContactUs() {
   return (
-    <section className=" bg-black text-white p-10 flex justify-between">
+    <section
+      id="contact"
+      className=" bg-black text-white p-10 flex justify-between"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex justify-center">
           <img

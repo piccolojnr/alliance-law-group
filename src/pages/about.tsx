@@ -4,7 +4,10 @@ import { about } from "../_data/about";
 //UI
 const AboutUs: React.FC = () => {
   return (
-    <section className="min-h-screen bg-black text-white p-10 flex flex-col justify-between ">
+    <section
+      id="about"
+      className="min-h-screen bg-black text-white p-10 flex flex-col justify-between "
+    >
       {/* Title */}
       <h1
         className="text-5xl font-bold mb-16 text-start"

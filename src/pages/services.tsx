@@ -2,7 +2,7 @@ import { services } from "../_data/services";
 
 const Services: React.FC = () => {
   return (
-    <section className="bg-gray-400 py-16 px-4 sm:px-6 lg:px-8">
+    <section id="services" className="bg-gray-400 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex flex-col justify-center">
           <h2 className="text-4xl font-extrabold text-gray-900 mb-4">
