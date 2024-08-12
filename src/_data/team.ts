@@ -1,93 +1,243 @@
 export const teamMembers = [
-    // Add your 50+ team members here
     {
-        name: "Team Member 1",
-        role: "Role 1",
+        name: "Arianne L. Palmer",
+        role: "Attorney",
         image: "/images/placeholder1.jpg",
+        email: "arianlpalma@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
     {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
+        name: "Darren L’Morrison",
+        role: "Attorney",
+        image: "/images/placeholder2.jpg",
+        email: "darrn@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
     {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
+        name: "Thomas L’Palmer",
+        role: "Attorney",
+        image: "/images/placeholder3.jpg",
+        email: "tomas@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
     {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
+        name: "Rebecca S. White",
+        role: "Senior Partner",
+        image: "/images/placeholder4.jpg",
+        email: "rebecca.white@gmail.com",
+        socials: [
+            {
+                icon: "L",
+                url: "https://www.linkedin.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
     {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
+        name: "James P. Lawrence",
+        role: "Litigation Specialist",
+        image: "/images/placeholder5.jpg",
+        email: "james.lawrence@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
     {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
+        name: "Natalie A. Graham",
+        role: "Corporate Lawyer",
+        image: "/images/placeholder6.jpg",
+        email: "natalie.graham@gmail.com",
+        socials: [
+            {
+                icon: "L",
+                url: "https://www.linkedin.com",
+            },
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+        ],
     },
     {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
+        name: "Michael K. Robertson",
+        role: "Legal Advisor",
+        image: "/images/placeholder7.jpg",
+        email: "michael.robertson@gmail.com",
+        socials: [
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+            {
+                icon: "L",
+                url: "https://www.linkedin.com",
+            },
+        ],
     },
     {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
+        name: "Cynthia L. Bennett",
+        role: "Family Law Specialist",
+        image: "/images/placeholder8.jpg",
+        email: "cynthia.bennett@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+        ],
     },
     {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
+        name: "John D. Smith",
+        role: "Paralegal",
+        image: "/images/placeholder9.jpg",
+        email: "john.smith@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "L",
+                url: "https://www.linkedin.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+        ],
     },
     {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
+        name: "Emma W. Collins",
+        role: "Intern",
+        image: "/images/placeholder10.jpg",
+        email: "emma.collins@gmail.com",
+        socials: [
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "L",
+                url: "https://www.linkedin.com",
+            },
+        ],
     },
     {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
+        name: "David L. Johnson",
+        role: "Legal Consultant",
+        image: "/images/placeholder11.jpg",
+        email: "david.johnson@gmail.com",
+        socials: [
+            {
+                icon: "F",
+                url: "https://www.facebook.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
     {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
+        name: "Mary J. Davis",
+        role: "Legal Assistant",
+        image: "/images/placeholder12.jpg",
+        email: "mary.davis@gmail.com",
+        socials: [
+            {
+                icon: "L",
+                url: "https://www.linkedin.com",
+            },
+            {
+                icon: "T",
+                url: "https://www.twitter.com",
+            },
+            {
+                icon: "I",
+                url: "https://www.instagram.com",
+            },
+        ],
     },
-    {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
-    },
-    {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
-    },
-    {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
-    },
-    {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
-    },
-    {
-        name: "Team Member 1",
-        role: "Role 1",
-        image: "/images/placeholder1.jpg",
-    },
-    {
-        name: "Team Member 2",
-        role: "Role 2",
-        image: "/images/placeholder1.jpg",
-    },
+
 ];

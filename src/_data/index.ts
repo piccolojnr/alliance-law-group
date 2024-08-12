@@ -1,63 +1,35 @@
-import { NavLink } from "../types";
-
-
-export const partners = [
-    {
-        name: 'Jane Doe',
-        title: 'Attorney',
-        image: '/images/jane-doe.jpg',
-        email: 'johndoe@exampl.com',
-    },
-    {
-        name: 'John Smith',
-        title: 'Attorney',
-        image: '/images/john-smith.jpg',
-        email: ''
-    },
-];
-
-export const navLinks: NavLink[] = [
-    { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Testimonials', href: '/testimonials' },
-];
-
-
-
-
 export const home = {
     brand: 'Alliance Law Group',
     tagline: 'Serving clients with excellence and dedication across various legal fields.',
     slogan: 'Providing Expert Legal Services with Integrity and Compassion',
-    attorneys: {
-        thomas: {
-            school: 'Harvard Law School',
-            experience: 15,
-        },
-        darren: {
-            school: 'Yale Law School',
-            experience: 12,
-        },
-    },
 };
+export interface Attorney {
+    name: string;
+    email: string;
+    image: string;
+    school: string;
+    role: string;
+    experience: string;
+}
 
 
 
-export const attorneys = [
+export const attorneys: Attorney[] = [
     {
         name: "Thomas L’Palmer",
         email: "Tpalmer.ALG@gmail.com",
-        image: "/images/placeholder1.jpg", // Replace with actual image paths
+        image: "/images/palmer.jpg",
         school: "Harvard Law School",
-        experience: "15 years",
+        role: "Attorney",
+        experience: "60 years",
     },
     {
         name: "Darren L’Morrison",
         email: "Dmorrison.LP@gmail.com",
-        image: "/images/placeholder2.jpg", // Replace with actual image paths
+        image: "/images/morison.jpg",
         school: "Yale Law School",
-        experience: "12 years",
+        role: "Attorney",
+        experience: "30 years",
     },
 ];
 

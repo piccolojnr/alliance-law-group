@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
           </h1>
         </div>
         <LeadAttorneys />
-        <button className="mt-8 px-8 py-2 bg-[#b4816b] hover:bg-[#b37b63] text-sm">
+        <button className="mt-8 px-8 py-2 bg-[#b4816b60] hover:bg-[#b37b63] text-sm rounded-md">
           Contact Us
         </button>
       </div>
