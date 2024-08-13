@@ -81,36 +81,6 @@ export default function ContactUs() {
             <p className="text-lg" style={{ fontFamily: "Abhaya Libre" }}>
               {lawFirmData.address}
             </p>
-            <p className="text-lg" style={{ fontFamily: "Abhaya Libre" }}>
-              {lawFirmData.city}, {lawFirmData.state} {lawFirmData.zip}
-            </p>
-          </div>
-
-          {/* website */}
-          <div className="flex items-start mb-5 flex-col">
-            <p
-              className="text-2xl  font-medium text-[#b4816b]"
-              style={{ fontFamily: "Abhaya Libre" }}
-            >
-              Website
-            </p>
-            <p className="text-lg" style={{ fontFamily: "Abhaya Libre" }}>
-              {lawFirmData.website}
-            </p>
-          </div>
-
-          {/* map */}
-          <div className="flex justify-start">
-            <div className="rounded-md overflow-hidden">
-              <iframe
-                src={lawFirmData.iframesrc}
-                width={250}
-                height={250}
-                style={{ border: 0 }}
-                allowFullScreen={true}
-                loading="lazy"
-              ></iframe>
-            </div>
           </div>
         </div>
       </div>
