@@ -29,7 +29,7 @@ export const attorneys: Attorney[] = [
         image: "/images/morison.jpg",
         school: "Yale Law School",
         role: "Attorney",
-        experience: "30 years",
+        experience: "43 years",
     },
 ];
 
