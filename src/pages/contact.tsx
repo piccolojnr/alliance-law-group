@@ -22,18 +22,7 @@ export default function ContactUs() {
           >
             Get in Touch
           </h1>
-          {/* phone */}
-          <div className="flex items-start mb-5 flex-col">
-            <p
-              className="text-2xl  font-medium text-[#b4816b]"
-              style={{ fontFamily: "Abhaya Libre" }}
-            >
-              Phone
-            </p>
-            <p className="text-lg" style={{ fontFamily: "Abhaya Libre" }}>
-              {lawFirmData.phone}
-            </p>
-          </div>
+
           {/* email */}
           <div className="flex items-start mb-5 flex-col">
             <p
@@ -70,17 +59,21 @@ export default function ContactUs() {
             </div>
           </div>
 
-          {/* address */}
+          {/* website */}
           <div className="flex items-start mb-5 flex-col">
             <p
               className="text-2xl  font-medium text-[#b4816b]"
               style={{ fontFamily: "Abhaya Libre" }}
             >
-              Address
+              Website
             </p>
-            <p className="text-lg" style={{ fontFamily: "Abhaya Libre" }}>
-              {lawFirmData.address}
-            </p>
+            <a
+              href={lawFirmData.website}
+              className="text-lg"
+              style={{ fontFamily: "Abhaya Libre" }}
+            >
+              {lawFirmData.website}
+            </a>
           </div>
         </div>
       </div>

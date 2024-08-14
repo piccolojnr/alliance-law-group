@@ -36,9 +36,8 @@ export const attorneys: Attorney[] = [
 
 export const lawFirmData = {
     name: "Alliance Law Group",
-    address: "ALG@org.com",
-    phone: "555-555-5555",
-    email: "johndoe@exampl.com",
+    email: "ALG@org.com",
+    website: "https://alliance-law-group.vercel.app/",
     image: "/images/law-firm.jpg",
     social: {
         facebook: "https://www.facebook.com",
