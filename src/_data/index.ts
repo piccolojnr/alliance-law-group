@@ -21,7 +21,7 @@ export const attorneys: Attorney[] = [
         image: "/images/palmer.jpg",
         school: "Harvard Law School",
         role: "Attorney",
-        experience: "40 years",
+        experience: "46 years",
     },
     {
         name: "Darren L’Morrison",
